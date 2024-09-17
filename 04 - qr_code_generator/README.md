@@ -7,19 +7,20 @@ Write a program to generate a QR code based on user input, such as text or a URL
 ### Solution
 
 1. As we are going to use the library, first, we create a virtual environment to allow each project to have seperate librairies. Type the following command in the terminal:
+
    ```sh
    python3 -m venv venv
    ```
 
-Create a file called .gitignore in the root of our projcet and add `venv/` to the file, because we don't want to commit all the files in the bin file to our repository.
+   Create a file called .gitignore in the root of our projcet and add `venv/` to the file, because we don't want to commit all the files in the bin file to our repository.
 
-Activate the environment in the terminal:
+   Activate the environment in the terminal:
 
-```sh
-  source venv/bin/activate
-```
+   ```sh
+     source venv/bin/activate
+   ```
 
-Once the virtual environment is activated, any packages will be installed in this isolated workspace. When we are done, we can deactivate it by typing `deactivate`.
+   Once the virtual environment is activated, any packages will be installed in this isolated workspace. When we are done, we can deactivate it by typing `deactivate`.
 
 2. Install the qrcode package
 
